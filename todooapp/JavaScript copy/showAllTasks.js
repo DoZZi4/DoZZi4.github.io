@@ -1,6 +1,6 @@
 import { checkboxTemplate } from './templates.js';
 import {EditTask} from './EditTask.js';
-import {DeleteStorageTask,MarkTask} from './Storage.js.js';
+import {DeleteStorageTask,MarkTask} from './storage.js';
 function ShowAllTasks (){
     let list = JSON.parse(window.localStorage.getItem('tasks'));
     let tasks = document.querySelectorAll('.task');
