@@ -1,9 +1,9 @@
 import {ShowAllTasks}from './showAllTasks.js';
 import {DeleteTask}from './DeleteTask.js';
 import {EditTask}from './EditTask.js';
-import './Storage.js.js';
+import './Storage.js';
 import './BillCheck.js';
-import {AddStorageTasks}from './Storage.js.js';
+import {AddStorageTasks}from './Storage.js';
 let button = document.querySelector('#OK');
 let tasks = [];
 ShowAllTasks (tasks);
