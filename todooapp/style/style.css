@@ -82,7 +82,7 @@ background:#FC76A1;
 .hidden {
     display: none;
 }
-.menu {
+/* .menu {
     position: relative;
     width: 13px;
     height: 2px;
@@ -98,11 +98,11 @@ background:#FC76A1;
     background-color: #BCBCBF;
     position: absolute;
     bottom:4px ;
-    }
+    } */
 #picture {
     display: none;
 }
-.menu::after {
+/* .menu::after {
     content:"";
     height: 2px;
     width: 13px;
@@ -121,7 +121,7 @@ background:#FC76A1;
 }
 .menu:hover::before {
     display: none;
-}
+} */
 .checkbox {
     background-color:#21212B;
     font-size: 35px;
