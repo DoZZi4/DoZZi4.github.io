@@ -2,7 +2,7 @@ import { checkboxTemplate } from './templates.js';
 import {EditTask} from './EditTask.js';
 import {DeleteStorageTask,MarkTask} from './Storage.js';
 function ShowAllTasks (){
-    let list = JSON.parse(window.localStorage.getItem('tasks'));
+    let list = JSON.parse(window.localStorage.getItem('tasks'))||[];
     let tasks = document.querySelectorAll('.task');
     for (let i = 0;i <tasks.length;i++){
         tasks[i].remove();
